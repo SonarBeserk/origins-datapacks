@@ -1,0 +1,17 @@
+{
+    "loading_priority": 10,
+    "type": "apoli:multiple",
+    "health": {
+      "type": "apoli:attribute",
+      "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "value": -0.5,
+        "operation": "addition",
+        "name": "bee health reduction"
+      }
+    },
+    "mob_type": {
+      "type": "apoli:entity_group",
+      "group": "arthropod"
+    }
+  }
